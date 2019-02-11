@@ -71,6 +71,10 @@ h3, h4, h5 {
 }
 footer{
     background-color:#363636;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
 }
 
 aside p, h3, h4 {
