@@ -36,7 +36,7 @@ else {
 
 <!-- Specs, Mugs, and Sausages Rolls -->
 <?php
-$my_age =
+
 ?>
 
 
