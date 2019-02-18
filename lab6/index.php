@@ -49,7 +49,39 @@ if ($myzaka > 21) {
     echo "You can buy specs";
     }
 ?>
+<br><br>
+<h2>Arrays</h2>
+<?php
+$myArray =array("do","re","mi"); //declare the array
+echo $myArray[0]. "<br>"; //outputs "do"
+$myArray[1] = "la"; //modifies position 1 (re) replaces it with la
+echo $myArray[1];
+unset($myArray[2])
+        ?>
+<h2>Arrays activity</h2>
+<?php
+$provisionedActivity =array("Specs","Mugs","Sausage Rolls");
 
+foreach ($provisionedActivity as $value){
+    print "<p>$value</p>";
+        $provisionedActivity[1]= "hugs"; //replace mugs with hugs
+           }
+
+echo $provisionedActivity[1]; //output
+unset($provisionedActivity[2]);
+echo $provisionedActivity[2];
+foreach ($provisionedActivity as $value){
+    print "<p>$value</p>";
+    $provisionedActivity[1]= "hugs";
+}
+
+?>
+<h2>Loops</h2>
+<?php
+for($i=1; $i<10;$i++){
+echo "<p>Hello! the number is: $i</p>";
+}
+?>
 
 </body>
 </html>
