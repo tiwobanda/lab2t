@@ -19,7 +19,7 @@ echo $_SESSION["favanimal"] . ".";
 
 
 <header>
-    <h2>PHP Session</h2>
+    <h2>PHP Session here</h2>
 </header>
 <main>
     <p>Nothing yet</p>
