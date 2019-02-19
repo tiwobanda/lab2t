@@ -12,10 +12,9 @@ session_start();
 <body>
 
 <?php
-//set session variables
-$_SESSION["favcolor"] = "green";
-$_SESSION["favanimal"] = "cat";
-echo "Session variables are set.";
+//Echo session variables
+echo $_SESSION["favcolor"] . "<br>";
+echo $_SESSION["favanimal"] . ".";
 ?>
 
 
@@ -24,6 +23,7 @@ echo "Session variables are set.";
 </header>
 <main>
     <p>Nothing yet</p>
+
 </main>
 <footer>
     <p>&copy; <?php echo date("Y"); ?> Wedding Planit</p>
