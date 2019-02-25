@@ -30,15 +30,36 @@ if ($db === false) {
     die ("Error: could not connect. " . mysqli_connect_error());
 }
 $sql = "SELECT * from marvelmovies";
-$result = mysqli_query($db, $sql);
-
-if (mysqli_num_rows($result) > 0) {
-    echo "<table>";
+if ($result = mysqli_query($db, $sql)) {
+    if (mysqli_num_rows($result) > 0) {
+        echo "<table border='1'>";
         echo "<tr>";
-            echo "<th>xxx"
-
-    while($row = mysqli_fetch_array($result))
+        echo "<th>ID</th>";
+        echo "<th>Year Released</th>";
+        echo "<th>Title</th>";
+        echo "<th>Production Studio</th>";
+        echo "<th>Notes</th>";
+        echo "</tr>";
+        //while ($row = mysqli_fetch_array($result)) {
+        while($row = $result->fetch_array()){
+            echo "<tr>";
+            echo "<td>" . $row['marvelMovieID'] . "</td>";
+            echo "<td>" . $row['yearReleased'] . "</td>";
+            echo "<td>" . $row['title'] . "</td>";
+            echo "<td>" . $row['productionStudio'] . "</td>";
+            echo "<td>" . $row['notes'] . "</td>";
+            echo "</tr>";
+        }
+        echo "</table>";
+//free result set
+        mysqli_free_result($result);
+    }
+}else{
+    echo "No records matching your query were found.";
 }
+
+//
+
 ?>
 <footer>
     <p><p>&copy; <?php echo date("Y"); ?>. Movies.me</p>
