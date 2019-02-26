@@ -1,4 +1,10 @@
 <?php
+session_start();					//retrieve or create session
+if (!IsSet($_SESSION["name"])) {		//user name must in session to stay here
+    header("Location: index.php");	//if not, go back to login page
+}
+
+
 require_once('assets/db.php');
 
 //check connection to database

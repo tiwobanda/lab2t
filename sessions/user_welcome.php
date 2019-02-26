@@ -1,3 +1,10 @@
+<?php
+session_start();					//retrieve or create session
+# if (!IsSet($_SESSION["name"]))		//user name must in session to stay here
+  #  header("Location: index.php");	//if not, go back to login page
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,10 +38,10 @@
         <div class="row">
             <div class="col-sm-6"><h3>You have successfully created your account</h3></div>
             <div class="col-sm-6"><h3>Sign in to your new account</h3>
-                <form action="#">
+                <form method="post" action="signin.php">
                     <p><input type="text" class="form-control" name="email" id="email" placeholder="Enter your email"></p>
                     <p><input type="password" class="form-control" name="password" id="pwd" placeholder="Enter your password"></p>
-                    <button type="submit" class="btn btn-secondary">Sign in</button>
+                    <button type="submit" class="btn btn-dark">Sign in</button>
 
                 </form>
 

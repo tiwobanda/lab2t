@@ -34,7 +34,7 @@
             <form method="post" action="signin.php">
                 <p><input type="text" class="form-control" name="email" id="email" placeholder="Enter your email"></p>
                 <p><input type="password" class="form-control" name="password" id="pwd" placeholder="Enter your password"></p>
-                <button type="submit" class="btn btn-secondary">Sign in</button>
+                <button type="submit" class="btn btn-dark">Sign in</button>
 
             </form>
                 <br>

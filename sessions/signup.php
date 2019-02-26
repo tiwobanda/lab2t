@@ -33,11 +33,11 @@
             <div class="col-sm-6"><h3>Sign up here</h3>
                 <form method="post" action="signup-proc.php">
                     <p>First name: <input type="text" class="form-control" name="first_name" placeholder="Enter your firstname"></p>
-                    <p>Last name: <input type="text" class="form-control" name="surtname" placeholder="Enter your surname"></p>
+                    <p>Last name: <input type="text" class="form-control" name="surname" placeholder="Enter your surname"></p>
                     <p>Email: <input type="text" class="form-control" name="email" id="email" placeholder="Enter your email"></p>
                     <p>Password: <input type="password" class="form-control" name="password" id="pwd" placeholder="Enter your password"></p>
                     <p>By clicking Sign up you agree you our Terms of Use and Privacy Policy</p>
-                    <button type="submit" class="btn btn-secondary">Sign up</button>
+                    <button type="submit" class="btn btn-dark">Sign up</button>
                     <a href="index.php" class="btn btn-dark" role="button">Cancel</a>
 
                 </form>
@@ -45,9 +45,7 @@
             </div>
         </div>
 
-        <nav>
 
-        </nav>
     </div>
 </main>
 <footer>
