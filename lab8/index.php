@@ -19,7 +19,7 @@
 
     </ul>
 </main>
-<p>Welcome to our movies collection. Here we show you good movies.</p>
+<p>Welcome to our movies collection. Here we show you good movies. Click on the links above to start your search.</p>
 <footer>
 <p><p>&copy; <?php echo date("Y"); ?>. Movies.me</p>
 </footer>
