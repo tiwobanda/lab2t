@@ -8,7 +8,7 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>User home RevMaster</title>
+    <title>User home Wedding PlanIt</title>
     <link rel="stylesheet" href="assets/style.css" />
 
     <!-- Latest compiled and minified CSS -->
@@ -26,9 +26,10 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
     <meta name="viewpoint" content="width=device-width, initial-scale=1" />
 </head>
 <body>
+
 <header>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <a class="navbar-brand" href="#">RevMaster</a>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Wedding PlanIt</a>
 
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
@@ -43,7 +44,7 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
             </ul>
     </nav>
 </header>
-<main>
+<div class="container-fluid">
    <div class="row">
        <div class="col-sm-3"><p>Left</p></div>
        <div class="col-sm-6"><h3><h3>User Home Page</h3>
@@ -51,14 +52,16 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
                <p>Welcome, <?php echo $_SESSION["name"]; ?>!</p>
                <p>This is your home page.</p>
                <p>We need to make sure that your information is up to date. Please update your your Profile</p>
-
+               <?php
+               include 'contractors.php';
+               ?>
 
 
        </div>
        <div class="col-sm-3"><p>Right</p></div>
 
     </div>
-</main>
+</div>
 
 
 <!--
@@ -67,8 +70,9 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
 
 <footer>
 
-    <p>&copy; Copyright <?php echo date("Y") ?> RevMaster</p>
+    <p>&copy; Copyright <?php echo date("Y") ?> Wedding PlanIt</p>
 
 </footer>
+
 </body>
 </html>
