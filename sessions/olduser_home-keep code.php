@@ -8,7 +8,7 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Wedding PlanIt - User Home</title>
+    <title>User home Wedding PlanIt</title>
     <link rel="stylesheet" href="assets/style.css" />
 
     <!-- Latest compiled and minified CSS -->
@@ -32,7 +32,7 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
         <a class="navbar-brand" href="#">Wedding PlanIt</a>
 
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link" href="user_home.php">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#">My Wedding</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Service Providers</a></li>
 
@@ -44,43 +44,35 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
         </ul>
     </nav>
 </header>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3"><p>Left</p></div>
+        <div class="col-sm-6"><h3><h3>User Home Page</h3>
+
+                <p>Welcome, <?php echo $_SESSION["name"]; ?>!</p>
+                <p>This is your home page.</p>
+                <p>We need to make sure that your information is up to date. Please update your your Profile</p>
+                <?php
+                include 'contractors.php';
+                ?>
 
 
-<div class="jumbotron" align="center">
-    <form method="GET" action="search_providers.php">
-        <div class="form-group">
-
-            <select name="search_value">
-
-                <option value="">Select Service Provider category to search</option>
-                <option value="beautician">Beautician</option>
-                <option value="caterer">Caterer</option>
-                <option value="jeweller">Jeweller</option>
-                <option value="venue">Venue</option>
-                <option value="flowers">Flowers </option>
-                <option value="photography">Photography </option>
-                <option value="music">Music</option>
-                <option value=" Beauticians">Beauticians</option>
-                <option value="decor">Decor</option>
-                <option value="weddingplanners">Wedding Planners</option>
-                <option value="dressers">Dresses</option>
-            </select>
-            &nbsp;
-            <input type="submit">
         </div>
-    </form>
+        <div class="col-sm-3"><p>Right</p></div>
 
-
+    </div>
 </div>
+
+
+<!--
+    This form allows you to logout by invoking the logoutphp script.
+-->
 
 <footer>
 
     <p>&copy; Copyright <?php echo date("Y") ?> Wedding PlanIt</p>
 
 </footer>
-
-
-
 
 </body>
 </html>

@@ -4,11 +4,11 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
     header("Location: index.php");	//if not, go back to login page
 }
 #?>
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Wedding PlanIt - User Home</title>
+    <title>Wedding PlanIt - Search for Service Providers</title>
     <link rel="stylesheet" href="assets/style.css" />
 
     <!-- Latest compiled and minified CSS -->
@@ -46,32 +46,51 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
 </header>
 
 
-<div class="jumbotron" align="center">
-    <form method="GET" action="search_providers.php">
-        <div class="form-group">
+ <main>
 
-            <select name="search_value">
-
-                <option value="">Select Service Provider category to search</option>
-                <option value="beautician">Beautician</option>
-                <option value="caterer">Caterer</option>
-                <option value="jeweller">Jeweller</option>
-                <option value="venue">Venue</option>
-                <option value="flowers">Flowers </option>
-                <option value="photography">Photography </option>
-                <option value="music">Music</option>
-                <option value=" Beauticians">Beauticians</option>
-                <option value="decor">Decor</option>
-                <option value="weddingplanners">Wedding Planners</option>
-                <option value="dressers">Dresses</option>
-            </select>
-            &nbsp;
-            <input type="submit">
-        </div>
-    </form>
-
-
+<div class = "jumbotron">
+    <h2>Contractor Search Results</h2>
 </div>
+<?php
+
+//check connection
+require_once('assets/db.php');
+if ($db === false) {
+    die ("Error: could not connect. " . mysqli_connect_error());
+}
+
+    //assign search variable
+    $search_value = $_GET['search_value'];
+
+    //run query
+    $sql = "SELECT * from contractors WHERE category = $search_value";
+
+    if ($result = mysqli_query($db, $sql)) {
+        if (mysqli_num_rows($result) > 0) {
+
+            while ($row = mysqli_fetch_array($result)) {
+            //while($row = $result->fetch_array()){
+                echo "<div class='card'>";
+                echo "<div class='card-header'>" . $row['business_name'] . "</div>";
+                echo "<div class='card-body'>" . $row['category'] . "</div>";
+                echo "</div>" . "<br>";
+            }
+
+
+//free result set
+            mysqli_free_result($result);
+
+
+
+    }else{
+        echo "No records matching your query were found.";
+    }
+    }
+
+
+?>
+
+ </main>
 
 <footer>
 
