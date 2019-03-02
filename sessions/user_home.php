@@ -47,10 +47,11 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
 
 
 <div class="jumbotron" align="center">
+    <h2>Search for Service Providers</h2>
     <form method="GET" action="search_providers.php">
         <div class="form-group">
 
-            <select name="search_value">
+            <select class="form-control-sm"  name="search_value">
 
                 <option value="">Select Service Provider category to search</option>
                 <option value="beautician">Beautician</option>
@@ -66,7 +67,7 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
                 <option value="dressers">Dresses</option>
             </select>
             &nbsp;
-            <input type="submit">
+            <input type="submit" value="Search">
         </div>
     </form>
 

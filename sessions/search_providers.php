@@ -48,9 +48,39 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
 
  <main>
 
-<div class = "jumbotron">
-    <h2>Contractor Search Results</h2>
+<div class = "jumbotron" align ="center">
+    <h2>Search for Service Providers</h2>
+    <form method="GET" action="search_providers.php">
+        <div class="form-group">
+
+            <select class="form-control-sm"  name="search_value">
+
+                <option value="">Select Service Provider category to search</option>
+                <option value="beautician">Beautician</option>
+                <option value="caterer">Caterer</option>
+                <option value="jeweller">Jeweller</option>
+                <option value="venue">Venue</option>
+                <option value="flowers">Flowers </option>
+                <option value="photography">Photography </option>
+                <option value="music">Music</option>
+                <option value=" Beauticians">Beauticians</option>
+                <option value="decor">Decor</option>
+                <option value="weddingplanners">Wedding Planners</option>
+                <option value="dressers">Dresses</option>
+            </select>
+            &nbsp;
+            <input type="submit" value="Search">
+        </div>
+    </form>
 </div>
+
+
+     <div class="row">
+         <div class="col-sm-2"></div>
+
+
+         <div class="col-sm-8">
+
 <?php
 
 //check connection
@@ -63,7 +93,7 @@ if ($db === false) {
     $search_value = $_GET['search_value'];
 
     //run query
-    $sql = "SELECT * from contractors WHERE category = $search_value";
+    $sql = "SELECT * from contractors WHERE category = '$search_value'";
 
     if ($result = mysqli_query($db, $sql)) {
         if (mysqli_num_rows($result) > 0) {
@@ -89,6 +119,9 @@ if ($db === false) {
 
 
 ?>
+         </div>
+         <div class="col-sm-2"></div>
+     </div>
 
  </main>
 
