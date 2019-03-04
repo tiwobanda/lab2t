@@ -4,11 +4,11 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
     header("Location: index.php");	//if not, go back to login page
 }
 #?>
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Wedding PlanIt - User Home</title>
+    <title>Wedding PlanIt - Search for Service Providers</title>
     <link rel="stylesheet" href="assets/style.css" />
 
     <!-- Latest compiled and minified CSS -->
@@ -46,7 +46,9 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
 </header>
 
 
-<div class="jumbotron" align="center">
+ <main>
+
+<div class = "jumbotron" align ="center">
     <h2>Search for Service Providers</h2>
     <form method="GET" action="search_providers.php">
         <div class="form-group">
@@ -70,9 +72,58 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
             <input type="submit" value="Search">
         </div>
     </form>
-
-
 </div>
+
+
+     <div class="row">
+         <div class="col-sm-2"></div>
+
+
+         <div class="col-sm-8">
+
+<?php
+
+//check connection
+require_once('assets/db.php');
+if ($db === false) {
+    die ("Error: could not connect. " . mysqli_connect_error());
+}
+
+    //assign search variable
+    $search_value = $_GET['search_value'];
+
+    //run query
+    $sql = "SELECT * from service_provider WHERE category = '$search_value'";
+
+    if ($result = mysqli_query($db, $sql)) {
+        if (mysqli_num_rows($result) > 0) {
+
+            while ($row = mysqli_fetch_array($result)) {
+            //while($row = $result->fetch_array()){
+                echo "<div class='card'>";
+                echo "<div class='card-header'>" . "<a href ='service_providers.php?'>" . $row['business_name'] . "</a>" . "</div>";
+                echo "<div class='card-body'>" . $row['category'] . "</div>";
+                echo "</div>" . "<br>";
+            }
+
+
+//free result set
+            mysqli_free_result($result);
+
+
+
+    }else{
+        echo "No records matching your query were found.";
+    }
+    }
+
+
+?>
+         </div>
+         <div class="col-sm-2"></div>
+     </div>
+
+ </main>
 
 <footer>
 
