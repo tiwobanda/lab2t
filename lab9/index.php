@@ -11,10 +11,23 @@
 </header>
 <p>What would you like to do?</p>
 <ul>
-    <li>Insert a Superhero</li>
-    <li>Display all superheros</li>
-    <li>Insert a Battle</li>
-    <li>Display all Battles</li>
+    <li><a href="superheroform.html">Insert a Superhero</a></li>
+    <li><a href="displaySuperheros.php">Display all Superheros</a></li>
+    <li><a href="battle.php">Insert a Battle</a></li>
+    <li><a href="displayBattles.php">Display all Battles</a></li>
 </ul>
+<?php
+include ("../lab8/db.php");
+$sql_query = "SELECT * FROM superheros";
+$result = $db->query($sql_query);
+while($row = $result->fetch_array());
+{
+    $firstname = $row['firstname'];
+    $lastname = $row['lastname'];
+    $id = $row['superheroID'];
+    echo "<li> <a href='displayBattles.php?id={$id}'>Battles for {$firstname} {$lastname}</a></li>";
+}
+
+?>
 </body>
 </html>
