@@ -93,7 +93,7 @@ if ($db === false) {
     $search_value = $_GET['search_value'];
 
     //run query
-    $sql = "SELECT * from contractors WHERE category = '$search_value'";
+    $sql = "SELECT * from service_provider WHERE category = '$search_value'";
 
     if ($result = mysqli_query($db, $sql)) {
         if (mysqli_num_rows($result) > 0) {
@@ -101,7 +101,7 @@ if ($db === false) {
             while ($row = mysqli_fetch_array($result)) {
             //while($row = $result->fetch_array()){
                 echo "<div class='card'>";
-                echo "<div class='card-header'>" . $row['business_name'] . "</div>";
+                echo "<div class='card-header'>" . "<a href ='service_providers.php?'>" . $row['business_name'] . "</a>" . "</div>";
                 echo "<div class='card-body'>" . $row['category'] . "</div>";
                 echo "</div>" . "<br>";
             }
