@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="3003286b-e35a-40f6-bb0d-251f664651d4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/lab8/after2010.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/marvel-movies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/xmen-films.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8a/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8a/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8a/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
     <list default="true" id="3003286b-e35a-40f6-bb0d-251f664651d4" name="Default" comment="working account creation, log in and log out">
       <change afterPath="$PROJECT_DIR$/sessions/contr-entry-proc.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sessions/contr-entry.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sessions/contractors.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sessions/user_home.php" beforeDir="false" afterPath="$PROJECT_DIR$/sessions/user_home.php" afterDir="false" />
+>>>>>>> origin/master
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +28,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab9/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sessions/signin.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="326">
               <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+>>>>>>> origin/master
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="superheroform.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab9/superheroform.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sessions/user_welcome.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,6 +93,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-59">
               <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+>>>>>>> origin/master
             </state>
           </provider>
         </entry>
@@ -108,6 +136,21 @@
         <option value="$PROJECT_DIR$/sessions/contr-entry-proc.php" />
         <option value="$PROJECT_DIR$/sessions/contractors.php" />
         <option value="$PROJECT_DIR$/sessions/user_home.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/sessions/.php" />
+        <option value="$PROJECT_DIR$/sessions/search.php" />
+        <option value="$PROJECT_DIR$/lab8/marvel-movies.php" />
+        <option value="$PROJECT_DIR$/lab8/after2010.php" />
+        <option value="$PROJECT_DIR$/lab8/xmen-films.php" />
+        <option value="$PROJECT_DIR$/lab8a/login.php" />
+        <option value="$PROJECT_DIR$/lab8a/index.html" />
+        <option value="$PROJECT_DIR$/lab8a/index.php" />
+        <option value="$PROJECT_DIR$/lab8a/home.php" />
+        <option value="$PROJECT_DIR$/lab9/index.html" />
+        <option value="$PROJECT_DIR$/lab9/superheroform.html" />
+        <option value="$PROJECT_DIR$/lab9/index.php" />
+=======
+>>>>>>> origin/master
       </list>
     </option>
   </component>
@@ -135,6 +178,11 @@
               <item name="lab3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
+<<<<<<< HEAD
+              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labs" type="462c0819:PsiDirectoryNode" />
+              <item name="lab9" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="phpstorm_projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="phpstorm_projects" type="462c0819:PsiDirectoryNode" />
               <item name="lab3" type="462c0819:PsiDirectoryNode" />
@@ -167,6 +215,7 @@
               <item name="phpstorm_projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="phpstorm_projects" type="462c0819:PsiDirectoryNode" />
               <item name="sessions" type="462c0819:PsiDirectoryNode" />
+>>>>>>> origin/master
             </path>
           </expand>
           <select />
@@ -181,6 +230,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sessions/assets" />
@@ -190,6 +241,7 @@
       <recent name="$PROJECT_DIR$/sessions/assets" />
     </key>
   </component>
+>>>>>>> origin/master
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -216,6 +268,7 @@
       <workItem from="1550573034428" duration="2450000" />
       <workItem from="1550669120070" duration="427000" />
       <workItem from="1551089495777" duration="7592000" />
+      <workItem from="1551692755375" duration="9374000" />
     </task>
     <task id="LOCAL-00001" summary="various">
       <created>1550167310683</created>
@@ -224,6 +277,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550167310683</updated>
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00002" summary="search bar for customers">
+      <created>1551271665196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551271665196</updated>
+    </task>
+    <task id="LOCAL-00003" summary="complete lab8, lab8b and started initial commit for lab9">
+      <created>1551698670048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551698670048</updated>
+=======
     <task id="LOCAL-00002" summary="a number of changes">
       <created>1551198172791</created>
       <option name="number" value="00002" />
@@ -237,11 +305,21 @@
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
       <updated>1551219310005</updated>
+>>>>>>> origin/master
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="29010000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-5" y="0" width="971" height="1046" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24315444" />
+=======
     <option name="totallyTimeSpent" value="50124000" />
   </component>
   <component name="ToolWindowManager">
@@ -257,6 +335,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+>>>>>>> origin/master
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4992636" weight="0.32939634" />
@@ -276,6 +355,36 @@
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4992636" weight="0.088509314" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+<<<<<<< HEAD
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24315444" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+=======
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -288,6 +397,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+>>>>>>> origin/master
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,9 +445,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="various" />
+<<<<<<< HEAD
+    <MESSAGE value="search bar for customers" />
+    <MESSAGE value="complete lab8, lab8b and started initial commit for lab9" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete lab8, lab8b and started initial commit for lab9" />
+=======
     <MESSAGE value="a number of changes" />
     <MESSAGE value="working account creation, log in and log out" />
     <option name="LAST_COMMIT_MESSAGE" value="working account creation, log in and log out" />
+>>>>>>> origin/master
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lab6/index.php">
@@ -347,9 +463,55 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/lab8/all-movies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessions/user_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="6" lean-forward="true" selection-start-line="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessions/contractors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab8/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="25" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessions/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab8/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab8/index.php">
+=======
     <entry file="file://$PROJECT_DIR$/test/session-login/home.php" />
     <entry file="file://$PROJECT_DIR$/test/session-login/login.php" />
     <entry file="file://$PROJECT_DIR$/test/index.php">
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
@@ -467,8 +629,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/session examples/05 session login with forwarding/validate.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="136">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab8/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="7" selection-start-line="25" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessions/contractors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab8/footer.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessions/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessions/user_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="27" column="6" selection-start-line="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab8/marvel-movies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="18" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab8/after2010.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="true" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab8/xmen-films.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab8/all-movies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+=======
         <state relative-caret-position="195">
           <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
@@ -479,6 +705,26 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/lab8a/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab8a/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab8a/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+=======
     <entry file="file://$PROJECT_DIR$/sessions/signin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -504,11 +750,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sessions/contractors.php">
+    <entry file="file://$PROJECT_DIR$/lab9/superheroform.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="289">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab9/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+=======
         <state relative-caret-position="-59">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
@@ -518,6 +776,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
