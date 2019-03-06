@@ -21,8 +21,9 @@
 </head>
 <body>
 <header>
-    <div class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <h4 c>RevMaster</h4>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Wedding PlanIt</a>
+
     </div>
 
 </header>

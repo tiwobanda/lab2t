@@ -38,7 +38,7 @@ if (isset($_GET['id'])) {
 
 <header>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <a class="navbar-brand" href="#">Wedding PlanIt</a>
+        <a class="navbar-brand" href="user_home.php">Wedding PlanIt</a>
 
         <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a class="nav-link" href="user_home.php">Home</a></li>
