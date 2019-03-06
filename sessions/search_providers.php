@@ -101,7 +101,7 @@ if ($db === false) {
             while ($row = mysqli_fetch_array($result)) {
             //while($row = $result->fetch_array()){
                 echo "<div class='card'>";
-                echo "<div class='card-header'>" . "<a href ='service_providers.php?'>" . $row['business_name'] . "</a>" . "</div>";
+                echo "<div class='card-header'>" . "<a href ='service_providers.php?id={$row['sp_id']}'>" . $row['business_name'] . "</a>" . "</div>";
                 echo "<div class='card-body'>" . $row['category'] . "</div>";
                 echo "</div>" . "<br>";
             }
