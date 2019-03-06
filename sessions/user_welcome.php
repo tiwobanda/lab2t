@@ -2,7 +2,9 @@
 session_start();					//retrieve or create session
 # if (!IsSet($_SESSION["name"]))		//user name must in session to stay here
   #  header("Location: index.php");	//if not, go back to login page
-
+if (!strstr($_SERVER['HTTP_REFERER'],"signup-proc.php")) {
+    header("Location: index.php");
+}
 ?>
 
 <!DOCTYPE html>
