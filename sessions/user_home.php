@@ -5,7 +5,7 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
 }
 #?>
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Wedding PlanIt - User Home</title>
@@ -27,7 +27,7 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
 </head>
 <body>
 
-<header>
+<div class="container">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
         <a class="navbar-brand" href="#">Wedding PlanIt</a>
 
@@ -43,7 +43,7 @@ if (!IsSet($_SESSION["name"]))	{	//user name must in session to stay here
 
         </ul>
     </nav>
-</header>
+</div>
 
 
 <div class="jumbotron" align="center">

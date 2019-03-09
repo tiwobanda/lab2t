@@ -20,13 +20,28 @@
     <meta name="viewpoint" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-<header>
-    <div class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <h3>RevMaster</h3>
-    </div>
 
-</header>
+<div class="container">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Resshare</a>
+
+        <!--<ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="user_home.php">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">My Wedding</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Service Providers</a></li>
+
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="myaccount.php">My Account</a></li>
+            <li class="nav-item"><a class="nav-link" href="logout.php">Sign out</a></li>
+
+        </ul> -->
+    </nav>
+</div>
+<br>
+
 <main>
+    <div class="container">
     <div class="jumbotron">
         <div class="row">
             <div class="col-sm-6"><h3>Sign up to RevMaster</h3></div>
@@ -46,6 +61,7 @@
         </div>
 
 
+    </div>
     </div>
 </main>
 <footer>

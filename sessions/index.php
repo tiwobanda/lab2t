@@ -20,23 +20,40 @@
     <meta name="viewpoint" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-<header>
+
+<div class="container">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <a class="navbar-brand" href="#">Wedding PlanIt</a>
+        <a class="navbar-brand" href="#">Resshare</a>
 
+        <!--<ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="user_home.php">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">My Wedding</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Service Providers</a></li>
+
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="myaccount.php">My Account</a></li>
+            <li class="nav-item"><a class="nav-link" href="logout.php">Sign out</a></li>
+
+        </ul> -->
     </nav>
+</div>
+    <br>
 
-</header>
 <main>
+<div class="container">
     <div class="jumbotron">
         <div class="row">
-            <div class="col-sm-6"><h3>Welcome to RevMaster</h3></div>
+            <div class="col-sm-6">
+                <br><br>
+                <h3>Resshare is an intuitive research paper sharing platform for Teams </h3>
+                <p>Read more</p>
+            </div>
             <div class="col-sm-6"><h3>Sign in here</h3>
             <form method="post" action="signin.php">
                 <p><input type="text" class="form-control" name="email" id="email" placeholder="Enter your email"></p>
                 <p><input type="password" class="form-control" name="password" id="pwd" placeholder="Enter your password"></p>
                 <button type="submit" class="btn btn-dark">Sign in</button>
-
             </form>
                 <br>
                 <br>
@@ -44,16 +61,26 @@
                 <h4><a href="signup.php">Sign up now</a></h4>
             </div>
         </div>
-
-        <nav>
-
-        </nav>
     </div>
+
+</div>
 </main>
-<footer>
+<br>
+<div class="container">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
 
-    <p>RevMaster &copy; <?php echo date("Y") ?></p>
+    <a class="navbar-brand" href="#">Resshare</a>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Privacy Policy</a></li>
+            <li class="nav-item nav-link">RevMaster &copy; <?php echo date("Y") ?></li>
 
-</footer>
+        </ul>
+
+
+
+
+</nav>
+</div>
 </body>
 </html>
