@@ -1,0 +1,42 @@
+body {
+    background-color: cornflowerblue;
+}
+
+main {
+max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    /*height: 400px;*/
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.container {
+    /*height: 100px;*/
+    /*width: 100px;*/;
+    margin: 10px;
+    padding: 10px;
+
+
+}
+
+#cont1 {
+    background-color: gold;
+    order: 2;
+    flex-grow: 3;
+}
+
+#cont2 {
+    background-color: silver;
+    order: 3;
+    flex-grow: 2;
+}
+
+#cont3 {
+    background-color: saddlebrown;
+    order: 1;
+    flex-grow: 1;
+}
